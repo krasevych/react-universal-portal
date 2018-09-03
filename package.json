@@ -1,0 +1,36 @@
+{
+    "name": "react-portal-universal",
+    "version": "0.1.0",
+    "description": "React portal for SSR",
+    "main": "dist/index.js",
+    "scripts": {
+        "prepare": "yarn run build",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/krasevych/react-universal-portal.git"
+    },
+    "author": "Roman Krasevych <krasevych@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/krasevych/react-universal-portal#readme",
+    "devDependencies": {
+        "@types/react": "^16.4.13",
+        "@types/react-dom": "^16.0.7",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "typescript": "^3.0.1"
+    },
+    "peerDependencies": {
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2"
+    },
+    "keywords": [
+        "react",
+        "react-dom",
+        "react-portal",
+        "universal",
+        "SSR",
+        "universal"
+    ]
+}
